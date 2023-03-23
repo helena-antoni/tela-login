@@ -1,0 +1,172 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Titillium Web", "sans-sarif";
+  background-color: #f8fafc;
+}
+
+button {
+  all: unset;
+  box-sizing: border-box;
+}
+h1 {
+  margin-bottom: 1.6rem;
+  color: #1e293b;
+  font-size: 3.6rem;
+  line-height: 5.5rem;
+}
+p,
+.create-account {
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  color: #475569;
+}
+
+a{
+  text-decoration: none;
+  color: #7c3aed;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+.flex {
+  display: flex;
+}
+
+.hide {
+  display: none;
+}
+#page > div {
+  padding: 4rem 11.2rem;
+}
+#page > * {
+  width: 50%;
+} 
+img {
+  width: 100%;
+  object-fit: cover;
+}
+
+/***************************************************/
+main {
+  margin-top: 11.4rem;
+  max-width: 38.4rem; 
+}
+.headline {
+  max-width: 35rem; 
+}
+header img {
+  width: 16rem;
+  height: 5.4rem;
+  object-fit: contain;
+}
+
+form {
+  margin-top: 4rem;
+}
+form .input-wrapper {
+  position: relative;
+  color:#1E293B; 
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 2.1rem;
+}
+
+
+
+.input-wrapper label {
+  font-weight: 600;
+  font-size: 1.4rem;
+  color: #1e293b;
+} 
+
+form input::placeholder{ 
+  font-weight:  400;
+  font-size: 1.4rem;
+  color: #94A3B8;
+}
+
+
+
+form button {
+  background-color: #7c3aed;
+  border-radius: 0.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.6rem 2.4rem;
+  width: 100%;
+  color: white;
+  font-weight: bold;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  margin-block: 3.2rem;
+}
+form button:focus {
+  outline: 0.2rem solid #7c3aed;
+  border-radius: 0.4rem;
+}
+.input-wrapper > input:focus, input:hover{
+  border:.15rem solid #7C3AED;
+  outline: 0;
+}
+form button:hover {
+  background-color: #9f67ff;
+} 
+
+form input {
+  width: 100%;
+  background-color: #ffffff;
+  border: 0.1rem solid #e2e8f0;
+  border-radius: 0.4rem;
+  padding: 1.6rem 1.2rem;
+  margin-top: 0.8rem;
+  
+}
+
+.label-wrapper {
+  justify-content: space-between;
+}
+ 
+form .input-wrapper + .input-wrapper {
+  margin-top: 1.6rem;
+}
+
+.input-wrapper a{
+  font-weight: 600;
+  font-size: 1.4rem;
+}
+input:disabled{
+  opacity: .35;
+}
+
+::-ms-reveal {
+  display: none;
+} 
+
+.create-account a{
+  font-weight: 700;
+  font-size: 1.6rem; 
+}
+.eye {
+  width: 2rem;
+  height: 2rem;
+
+  position: absolute;
+  top: 55%;
+  right: 5%;
+  cursor: pointer;
+}
